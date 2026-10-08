@@ -62,7 +62,7 @@ export const YandexMap: React.FC<YandexMapProps> = ({
           },
           {
             iconLayout: 'default#image',
-            iconImageHref: '/marker.png',
+            iconImageHref: `${import.meta.env.BASE_URL}marker.png`,
             iconImageSize: [36, 48],
             iconImageOffset: [-18, -48],
             hideIconOnBalloonOpen: false,
